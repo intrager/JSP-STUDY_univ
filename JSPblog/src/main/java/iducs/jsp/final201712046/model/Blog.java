@@ -1,6 +1,7 @@
 /**
  * 2021.12.09
  * 작성자 : Bruce Han
+ * Created by IntelliJ IDEA 2021.1.3 x64
  */
 package iducs.jsp.final201712046.model;
 
