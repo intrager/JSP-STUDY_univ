@@ -25,7 +25,7 @@
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../writers/login-form.do">Login</a></li>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../writers/register-form.do">register</a></li>
                     </c:when>
-                    <c:when test="${sessionScope.logined != null && sessionScope.logined.email.equals('csb1root@induk.ac.kr')}">
+                    <c:when test="${sessionScope.logined != null && sessionScope.logined.email.equals('admin@induk.ac.kr')}">
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../blogs/post-form.do">Post</a></li>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../writers/sort.do?by=desc,name">DescBloggerName</a></li>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../writers/list.do?pn=1">writerList</a></li>

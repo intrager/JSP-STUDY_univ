@@ -7,7 +7,7 @@ public class DAOImplOracle implements DAO {
     @Override
     public Connection getConnection() {
         String jdbcUrl = "jdbc:oracle:thin:@localhost:1521:XE";
-        String dbUser = "system";
+        String dbUser = "induk";
         String dbPw = "cometrue";
         try {
             Class.forName("oracle.jdbc.OracleDriver");  // 드라이버 로딩

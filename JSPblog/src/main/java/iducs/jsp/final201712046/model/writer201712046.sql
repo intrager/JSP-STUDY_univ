@@ -1,6 +1,6 @@
-create sequence seq_blogger201712046 increment by 1 start with 1;
+create sequence seq_writer201712046 increment by 1 start with 1;
 
-create table blogger201712046
+create table writer201712046
 (
     id      number(11)   not null primary key,
     email   varchar2(30) not null unique,
@@ -11,13 +11,13 @@ create table blogger201712046
 );
 
 
-insert into blogger201712046 values(seq_blogger201712046.nextval, 'root@induk.ac.kr' , 'cometrue', 'admin', '01012345678', 'seoul');
+insert into writer201712046 values(seq_writer201712046.nextval, 'root@induk.ac.kr' , 'cometrue', 'admin', '01012345678', 'seoul');
 
-update blogger201712046 set name='admin' where name='관리자';
+update writer201712046 set name='admin' where name='관리자';
 
-select * from blogger201712046;
+select * from writer201712046;
 
-drop sequence seq_blogger201712046;
-drop table blogger201712046;
+drop sequence seq_writer201712046;
+drop table writer201712046;
 
 commit;
