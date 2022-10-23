@@ -1,5 +1,5 @@
-# Servlet/JSP-STUDY_univ
-학과에서 jsp/Servlet에 대해 배운 것을 기록하는 저장소
+# JSP-STUDY_univ
+학과에서 jsp에 대해 배운 것을 기록하는 저장소
 
 
 ### 메인 페이지
