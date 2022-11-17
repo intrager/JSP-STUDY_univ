@@ -13,7 +13,8 @@
  - ojdbc8
  - IntelliJ IDEA
  
- 
+### 소스 코드
+https://github.com/intrager/JSP-STUDY_univ/tree/main/JSPblog
 
 
 
